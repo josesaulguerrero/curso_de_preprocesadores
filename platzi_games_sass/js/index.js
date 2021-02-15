@@ -1,7 +1,5 @@
 const child = document.getElementById('child');
-const parent = document.getElementById('parent');
 const body = document.getElementById('body');
-
 function addAnimation(){
    // const child = document.getElementById('child');
    if(verifyClass()){
@@ -29,6 +27,4 @@ function removeClass(){
    body.classList.remove('body--dark')
 }
 // debugger
-// child.addEventListener('click', addAnimation);
-parent.addEventListener('click', addAnimation);
-// parent.onclick(addAnimationParent);
+child.addEventListener('click', addAnimation);
