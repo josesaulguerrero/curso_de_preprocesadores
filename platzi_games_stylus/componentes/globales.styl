@@ -1,0 +1,35 @@
+fuenteUno = 'Lato', sans-serif
+fuenteDos = 'Oswald', sans-serif
+colorPrincipal = #333
+colorSecundario = #8841da
+colorClaro = #fff
+
+contenedor()
+   display: flex
+   justify-content: center
+   flex-wrap: wrap
+   padding: 0 30px
+   margin: 0 0 40px
+
+sombra()
+   box-shadow: 0 10px 25px 0 rgba(colorPrincipal, 0.4)
+
+*
+   padding: 0
+   margin: 0
+   box-sizing: border-box
+
+html 
+   font-size: 62.5%
+
+body 
+   width: 100%
+   min-height: 110vh
+   margin: 0
+   font-family: fuenteUno
+   font-size: 1.6rem
+   color: colorPrincipal
+   h1, h2, h3 
+      font-family: fuenteDos
+   img 
+      cursor pointer
